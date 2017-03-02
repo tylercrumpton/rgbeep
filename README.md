@@ -18,7 +18,7 @@ The pin mappings are as follows:
 | Description | Module Pin |
 |-------------|------------|
 | APA102 CLK  | D5         |
-| APA102 DATA | D6         |
+| APA102 DATA | D7         |
 | Switch SW1  | D1         |
 | Switch SW2  | D2         |
 | Switch SW3  | D3         |
