@@ -11,6 +11,10 @@ but wanted to use APA102 RGB LEDs instead WS2182s, remove the "sacrificial Neopi
 On board, there are 16 APA102 SPI-controllable RGB LEDs, four pushbuttons, and a socket for either a Wemos D1 Mini ESP8266 module
 or a [Synapse-powered S1 Mini][s1].
 
+The diffuser insert is optional, but helps to hide the pixels underneath the dome. It is meant to be installed between 
+the PCB and the dome with the "fins" oriented downwards, torward the PCB. White filament is recommended. 
+The model was designed/printed/tested with an FDM printer at .2mm layer height.
+
 ## Operation
 The **RGBeep**'s D1 Mini or S1 Mini module communicate with the APA102 LEDs via SPI, and the pushbuttons are connected to GPIO pins.
 The pin mappings are as follows:
